@@ -12,7 +12,7 @@ class Solution {
             solve(grid,x,y-1);
         }
         if(x-1>=0 && grid[x-1][y]==1){
-            solve(grid,x-1,y);
+            solve(grid,x-1,y);                  
         }
         if(y+1<m && grid[x][y+1]==1){
             solve(grid,x,y+1);
